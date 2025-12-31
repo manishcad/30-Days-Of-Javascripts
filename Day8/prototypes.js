@@ -1,3 +1,10 @@
+/*
+Day 8 – Objects Deep Dive
+- Object methods
+- Property descriptors
+- Shallow vs deep copy
+*/
+
 // Prototypes in JavaScript
 
 // Every function in JavaScript has a prototype property
