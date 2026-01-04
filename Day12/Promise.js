@@ -1,3 +1,11 @@
+//Creating a Promise
+const promise = new Promise((resolve,reject)=>{
+    //Simulating an async operation using setTimeout
+    setTimeout(()=>{
+        console.log("Hello")
+    },2000)})
+
+
 function greet(name,callback){
     return new Promise((resolve)=>{
         console.log("Hello " + name )
